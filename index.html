@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sweet Dreams Bakery - Kue Ulang Tahun Terbaik</title>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">🎂 vamarish cakes </div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#features">Layanan</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+        <div id="notification" class="notification"></div>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Kue Ulang Tahun Impian Anda</h1>
+                <p>Setiap ulang tahun punya cerita. Vamarish Cakes bukan sekadar
+                    kue, tapi bagian dari perayaanmu. Rayakan hari spesial
+                    dengan kue spesial. Di Vamarish, setiap lapisan dibuat dari
+                    bahan berkualitas tinggi dan sentuhan cinta. Mulai dari
+                    desain lucu hingga tampilan elegan, semua bisa kamu pesan
+                    sesuai gayamu. Momen spesial tak datang setiap hari. Jadi,
+                    pastikan kamu merayakannya dengan cara paling manis hanya di
+                    Vamarish Cakes.</p>
+                <a href="#products" class="cta-button">Pesan Sekarang</a>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="container">
+                <h2 class="section-title">Koleksi Kue Ulang Tahun</h2>
+                <div class="product-grid">
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue1.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Kue Mocca XL</h3>
+                            <p>Dihiasi krim mocca lembut, cokelat kecil, dan
+                                motif garis cokelat leleh, cocok untuk perayaan
+                                ulang tahun yang megah.</p>
+                            <div class="price">Rp 150.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue2.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Mini Bento Cake</h3>
+                            <p>Kue mini berwarna hijau khas matcha dengan hiasan
+                                bunga mungil di pinggir, sempurna untuk kejutan
+                                ulang tahun yang manis dan minimalis.</p>
+                            <div class="price">Rp 60.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue3.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Berry Fresh Cheesecake</h3>
+                            <p>Cheesecake dengan tekstur creamy, dilapisi
+                                buah-buah beri segar seperti raspberry,
+                                blackberry, dan blueberry, cocok untuk pencinta
+                                rasa segar alami.</p>
+                            <div class="price">Rp 90.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue4.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Red Velvet Classic</h3>
+                            <p>Kue red velvet berwarna merah marun cerah dengan
+                                lapisan krim keju putih, menghadirkan kombinasi
+                                rasa manis dan gurih yang seimbang.</p>
+                            <div class="price">Rp 110.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue5.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Cherry Velvet Cupcake</h3>
+                            <p>Cupcake lembut dengan krim keju dan ceri di
+                                atasnya, tampil cantik di meja pesta ulang tahun
+                                atau acara spesial lainnya.</p>
+                            <div class="price">Rp 120.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="assets/kue6.jpg" alt>
+                        </div>
+                        <div class="product-info">
+                            <h3>Teddy Bear Party Cake</h3>
+                            <p>Kue berwarna pastel lembut dengan hiasan boneka
+                                beruang dan lilin mini, cocok untuk pesta ulang
+                                tahun anak-anak yang ceria.</p>
+                            <div class="price">Rp 180.000</div>
+                            <button class="order-btn">Tambah ke
+                                Keranjang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tombol -->
+            <button class="cart-toggle" onclick="toggleCart()">🛒</button>
+
+        <!-- Sidebar Keranjang -->
+            <div class="cart-sidebar" id="cartSidebar">
+                <span id="closeCartBtn" class="close-btn">&times;</span>
+            <!-- Ini tombol silangnya -->
+                <h2>Keranjang</h2>
+                <ul id="cartItems"></ul>
+                <p><strong>Total:</strong> <span id="cartTotal">Rp0</span></p>
+                <button class="checkout-btn"
+                    onclick="showPayment()">Checkout</button>
+            </div>
+
+        <!-- Modal Pembayaran -->
+            <div class="payment-modal" id="paymentModal">
+                <div class="payment-content">
+                    <h2>Total Pembayaran:</h2>
+                    <p id="paymentTotal"
+                        style="font-size: 1.5rem; font-weight: bold;">Rp0</p>
+                    <p id="paymentError"
+                        style="color: red; display: none; margin-top: 0.5rem;"></p>
+
+                    <!-- Ini warning kalau keranjang kosong -->
+                    <p id="checkoutWarning" style="color: red; display: none;"></p>
+
+                    <!-- Ini dibungkus supaya bisa disembunyikan semua -->
+                    <div id="paymentFormContainer">
+                        <h3>Pilih Metode Pembayaran</h3>
+
+                        <p id="transferProofWarning"
+                        style="display: none; color: red;">
+                            Silakan upload bukti pembayaran terlebih dahulu.
+                        </p>
+
+                    <form id="paymentForm">
+                        <label>
+                            <input type="radio" name="paymentMethod"
+                                value="COD"> Cash On Delivery (COD)
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod"
+                                value="bank"> Transfer Bank
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod"
+                                value="qris"> QRIS
+                        </label>
+
+                        <!-- Info Bank -->
+                        <div id="bankInfo" class="payment-info"
+                            style="display: none; margin-top: 1rem;">
+                            <h4>Transfer ke:</h4>
+                            <p>Bank BCA - 1234567890<br>a.n. Sweet Dreams
+                                Bakery</p>
+                            <label for="bankProof">Upload Bukti
+                                Transfer:</label>
+                            <input type="file" id="bankProof"
+                                accept="image/*,.pdf" required>
+                        </div>
+
+                        <!-- Info QRIS -->
+                        <div id="qrisInfo" class="payment-info"
+                            style="display: none; margin-top: 1rem;">
+                            <h4>Scan Barcode:</h4>
+                            <img src="assets/qrispalsu.jpg" alt="QRIS"
+                                style="width: 200px;">
+                            <label for="qrisProof">Upload Bukti QRIS:</label>
+                            <input type="file" id="qrisProof"
+                                accept="image/*,.pdf" required>
+                        </div>
+                    </form>
+                </div>
+
+        <!-- Tombol bayar ini juga dikontrol -->
+        <div class="payment-buttons">
+            <button id="payButton"
+                onclick="completePayment()">Bayar</button>
+            <button onclick="closePayment()">Batal</button>
+        </div>
+    </div>
+</div>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2 class="section-title">Mengapa Memilih Kami?</h2>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🥇</div>
+                        <h3>Kualitas Premium</h3>
+                        <p>Menggunakan bahan-bahan berkualitas tinggi dan resep
+                            terbaik untuk cita rasa yang tak terlupakan</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Desain Custom</h3>
+                        <p>Tim decorator profesional siap mewujudkan desain kue
+                            impian sesuai keinginan Anda</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Pengiriman Cepat</h3>
+                        <p>Layanan pengiriman same-day untuk area Surabaya dan
+                            sekitarnya dengan kemasan aman</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">💰</div>
+                        <h3>Harga Terjangkau</h3>
+                        <p>Dapatkan kue berkualitas premium dengan harga yang
+                            bersahabat dan berbagai promo menarik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <p>Siap membantu mewujudkan kue ulang tahun impian Anda.</p>
+                <div class="contact-info">
+                    <a href="https://wa.me/6289678333548" class="contact-item"
+                        target="_blank">
+                        <i class='bx bxl-whatsapp'></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="mailto:vania.putri7780@smk.belajar.id"
+                        class="contact-item">
+                        <i class='bx bxs-envelope'></i>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://maps.app.goo.gl/8a3DzvDscDFgCsiw9"
+                        class="contact-item" target="_blank">
+                        <i class='bx bxs-map'></i>
+                        <span>Jl. Smea No.4, Wonokromo</span>
+                    </a>
+                    <div class="contact-item">
+                        <i class='bx bxs-time'></i>
+                        <span>Buka: 08.00 - 20.00 WIB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 vamarish cakes. Semua hak dilindungi
+                    undang-undang.</p>
+            </div>
+        </footer>
+
+        <div id="successModal" class="modal-success">
+            <div class="modal-content">
+                <span class="close-success"
+                    onclick="closeSuccessModal()">&times;</span>
+                <h2>✅ Pembayaran Berhasil!</h2>
+                <p id="successMessage" style="margin-top: 1rem;"></p>
+                <button onclick="closeSuccessModal()">Tutup</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
