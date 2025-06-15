@@ -272,7 +272,7 @@ nav {
 
 @media (max-width: 480px) {
   .product-image {
-    aspect-ratio: 1 / 1; 
+    aspect-ratio: 4 / 3; 
   }
 }
 
