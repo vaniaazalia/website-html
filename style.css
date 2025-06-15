@@ -200,7 +200,7 @@ nav {
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 1.8rem; /* atau lebih kecil sesuai selera */
+    font-size: 1.2rem;
   }
 }
 
@@ -620,7 +620,7 @@ input[type="file"] {
 
 /* Features Section */
 .features {
-    background: white;
+    background: #fffdf0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
