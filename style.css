@@ -698,7 +698,7 @@ input[type="file"] {
 .contact h2 {
   text-align: center;
   font-size: 2rem;
-  color: var(--choco-text);
+  color: #343333;
   margin-bottom: 2rem;
 }
 
