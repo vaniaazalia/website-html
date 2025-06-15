@@ -200,7 +200,7 @@ nav {
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -274,7 +274,7 @@ nav {
     object-fit: cover;
     object-position: center;
     display: block;
-    aspect-ratio: 16 / 9; 
+    aspect-ratio: 15 / 9; 
   }
 }
 
