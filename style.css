@@ -16,7 +16,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.4;
-    background-color: #f7f4fa; /* ungu keputihan */
+    background-color: #f7f4fa; 
     color: #333;
     overflow-x: hidden;
 }
@@ -159,13 +159,13 @@ nav {
 .cta-button {
     display: inline-block;
     background: #fff;
-    color: #ffa8fe; /* warna utama */
+    color: #ffa8fe;
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
     font-size: 1.1rem;
-    box-shadow: 0 8px 24px rgba(253, 203, 252, 0.3); /* soft shadow */
+    box-shadow: 0 8px 24px rgba(253, 203, 252, 0.3); 
     transition: all 0.3s ease;
     animation: slideInUp 1s ease-out 0.4s both;
 }
@@ -173,7 +173,7 @@ nav {
 .cta-button:hover {
     background: var(--baby-blue);
     color: white;
-    box-shadow: 0 6px 18px rgba(161, 196, 253, 0.4); /* soft blue shadow */
+    box-shadow: 0 6px 18px rgba(161, 196, 253, 0.4); 
     transform: translateY(-3px);
 }
 
@@ -200,7 +200,7 @@ nav {
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -241,7 +241,7 @@ nav {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
     position: relative;
-    border: 1px solid rgba(253, 203, 252, 0.4); /* soft pink border */
+    border: 1px solid rgba(253, 203, 252, 0.4); 
 }
 
 .product-card:hover {
@@ -259,6 +259,7 @@ nav {
     position: relative;
     overflow: hidden;
     color: white;
+    aspect-ratio: 4 / 3;
 }
 
 .product-image img {
@@ -266,6 +267,13 @@ nav {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .product-image {
+    aspect-ratio: 1 / 1; 
+  }
 }
 
 .product-image::before {
@@ -280,7 +288,7 @@ nav {
         rgba(255, 255, 255, 0.15) 0%,
         transparent 60%
     );
-    pointer-events: none; /* agar tidak ganggu interaksi */
+    pointer-events: none; 
     z-index: 1;
 }
 
@@ -290,25 +298,25 @@ nav {
 
 .product-info h3 {
     font-size: 1.3rem;
-    color: #4c3752; /* deep mauve, masih kontras tapi lebih hangat */
+    color: #4c3752;
     margin-bottom: 0.5rem;
 }
 
 .product-info p {
-    color: #7a7a7a; /* soft grey, lebih halus dari #666 */
+    color: #7a7a7a;
     margin-bottom: 1rem;
 }
 
 .price {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #ff6b6b; /* masih cocok untuk harga */
+    color: #ff6b6b; 
     margin-bottom: 1rem;
 }
 
 .order-btn {
     background: linear-gradient(135deg, var(--mint), var(--candy-pink));
-    color: #4c3752; /* netral gelap yang tetap manis */
+    color: #4c3752; 
     border: none;
     padding: 0.7rem 1.5rem;
     border-radius: 25px;
