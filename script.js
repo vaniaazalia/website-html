@@ -180,7 +180,7 @@ function showSuccessModal(method, total) {
   successMessage.innerHTML = `
     <strong>Metode:</strong> ${method.toUpperCase()}<br>
     <strong>Total:</strong> ${total}<br><br>
-    🎉 Terima kasih telah berbelanja di Sweet Dreams Bakery!
+    🎉 Terima kasih telah berbelanja di vamarish cakes !
   `;
   successModal.style.display = "flex";
 }
