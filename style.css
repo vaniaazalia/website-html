@@ -272,7 +272,7 @@ nav {
 @media (max-width: 480px) {
   .product-image {
     object-position: center;
-    aspect-ratio: 16 / 9; 
+    aspect-ratio: 14 / 9; 
   }
 }
 
