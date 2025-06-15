@@ -259,7 +259,6 @@ nav {
     position: relative;
     overflow: hidden;
     color: white;
-    aspect-ratio: 4 / 3;
 }
 
 .product-image img {
@@ -272,6 +271,7 @@ nav {
 
 @media (max-width: 480px) {
   .product-image {
+    object-position: center;
     aspect-ratio: 16 / 9; 
   }
 }
