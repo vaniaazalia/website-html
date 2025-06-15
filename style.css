@@ -23,7 +23,7 @@ body {
 
 /* Header & Navigation */
 header {
-    background: linear-gradient(135deg, #FDCBFC, #A1C4FD); /* Soft Pink ke Baby Blue */
+    background: linear-gradient(135deg, #FDCBFC, #A1C4FD);
     color: #fff;
     padding: 1rem 0;
     position: fixed;
@@ -192,10 +192,16 @@ nav {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--soft-pink); /* atau bisa pakai baby-blue atau choco-text */
+    color: var(--soft-pink);
     margin-bottom: 3rem;
     position: relative;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem; /* atau lebih kecil sesuai selera */
+  }
 }
 
 .section-title::after {
@@ -249,7 +255,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
     overflow: hidden;
     color: white;
@@ -704,7 +710,7 @@ input[type="file"] {
     padding: 1.2rem 2rem;
     border: 2px solid var(--cotton-candy);
     border-radius: 20px;
-    background: linear-gradient(135deg, #FDCBFC 0%, #A1C4FD 100%);
+    background: linear-gradient(135deg, #FDCBFC, #A1C4FD) ;
     backdrop-filter: blur(6px);
     box-shadow: 0 8px 20px rgba(253, 203, 252, 0.15);
     color: #333;
@@ -731,7 +737,7 @@ input[type="file"] {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #fdb0fc, #81b1ff); 
+    background: linear-gradient(135deg, #FDCBFC, #A1C4FD); 
     color: #4B3B2A;
     text-align: center;
     padding: 2rem 0;
