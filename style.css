@@ -345,7 +345,7 @@ nav {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    box-shadow: 0 8px 20px rgba(253, 203, 252, 0.4); /* lebih soft dan nyambung */
+    box-shadow: 0 8px 20px rgba(253, 203, 252, 0.4);
     cursor: pointer;
     z-index: 1500;
     transition: all 0.3s ease;
@@ -363,7 +363,7 @@ nav {
     top: 0;
     width: 320px;
     height: 100%;
-    background-color: var(--lemon-cream);
+    background: linear-gradient(135deg, #FFF6B7 40%, #C2FFD8 100%);
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
     padding: 2rem;
     transition: right 0.4s ease-in-out;
@@ -485,7 +485,7 @@ nav {
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     animation: popIn 0.3s ease-out;
-    border: 3px dashed #ddc1d6; /* pink yang lebih gelap dan kontras */
+    border: 3px dashed #ddc1d6;
     color: #333;
 }
 
@@ -504,11 +504,11 @@ nav {
 .payment-content form {
     margin: 1.2rem 0;
     text-align: left;
-    background-color: #ffffff; /* Latar putih bersih */
+    background-color: #ffffff;
     padding: 1.2rem;
     border-radius: 15px;
-    border: 2px solid var(--mint); /* Border solid mint */
-    box-shadow: 0 6px 16px rgba(194, 255, 216, 0.25); /* Bayangan lembut mint */
+    border: 2px solid var(--mint);
+    box-shadow: 0 6px 16px rgba(194, 255, 216, 0.25);
     transition: all 0.3s ease;
 }
 
@@ -519,20 +519,20 @@ nav {
 .payment-content label {
     display: flex;
     align-items: center;
-    margin-bottom: 0.3rem; /* kecilkan jarak antar radio button */
+    margin-bottom: 0.3rem;
     font-size: 0.95rem;
     color: var(--choco-text);
 }
 
 .payment-info {
     margin-top: 1rem;
-    background-color: #fff7fa; /* Latar lebih terang dan bersih */
+    background-color: #fff7fa;
     padding: 1rem 1.2rem;
     border-radius: 12px;
-    border-left: 5px solid var(--candy-pink); /* Pink pastel yang sedikit lebih kontras */
-    box-shadow: 0 4px 12px rgba(253, 203, 252, 0.25); /* Shadow lembut pink */
+    border-left: 5px solid var(--candy-pink);
+    box-shadow: 0 4px 12px rgba(253, 203, 252, 0.25);
     font-size: 0.95rem;
-    color: #444; /* Warna teks tetap terbaca */
+    color: #444;
 }
 
 .payment-info p {
